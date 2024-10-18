@@ -25,7 +25,7 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [ ] Selecting particular options prevents incompatible options from being selected even before form submission
+- [x] Selecting particular options prevents incompatible options from being selected even before form submission
 
 The following **additional** features are implemented:
 
@@ -35,10 +35,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-[Video Walkthrough](https://i.imgur.com/9M6eXm3.gifv)
+[Video Walkthrough](https://i.imgur.com/kG0rIBv.gifv)
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with [CloudConvert](https://cloudconvert.com/mp4-to-gif) 
+GIF created with [CloudConvert](https://i.imgur.com/J0AceAT.gifv) 
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
