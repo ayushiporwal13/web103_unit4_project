@@ -245,3 +245,126 @@
   
   }
   
+  .create-car {
+    background-color: var(--card-background-color);
+    width: 100vw;
+    padding: 5px 50px 30px;
+    display: flex;
+    align-content: center;
+}
+
+.create-car label {
+    color: #fff;
+}
+
+#root label {
+    font-family: var(--font-family);
+    display: flex;
+    margin-bottom: 0;
+    width: 15%;
+}
+
+.create-car-options {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.create-car-price {
+    position: absolute;
+    top: 80vh;
+    left: 50px;
+    width: 300px;
+    height: 80px;
+    background-color: var(--primary);
+    border: 3px solid black;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.create-car-name {
+    display: flex;
+}
+
+.create-car-name input{
+    color: #fff;
+}
+
+.car-options {
+    display: flex;
+    width: 400px;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.option-modal {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    border: 4px solid rgb(115, 2, 12);
+    border-radius: 4px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: auto;
+}
+
+.available-options {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.option-modal button {
+    background-color: #73020c;
+    border: 2px solid transparent;
+    width: max-content;
+    margin: 20px 10px 50px 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: Rubik, Verdana, sans-serif;
+}
+
+.option-card {
+    width: 140px;
+    height: 90px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.option-card-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .8);
+    padding: 5px;
+    color: #fff;
+    /* opacity: 0; */
+    transition: all .5s;
+}
+
+.option-modal p {
+    font-family: Rubik, Verdana, sans-serif;
+    margin-top: 5px;
+    color: #fff;
+    text-align: center;
+    font-size: medium;
+}
