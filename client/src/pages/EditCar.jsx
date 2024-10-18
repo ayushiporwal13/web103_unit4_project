@@ -150,10 +150,10 @@ const EditCar = () => {
     const updatedCar = {
       name: selectedCar.name,
       isconvertible: selectedCar.isconvertible,
-      exterior: selectedFeature.exterior ? selectedFeature.exterior : selectedFeature["exterior"].id,
-      roof: selectedFeature.roof ? selectedFeature.roof : selectedFeature["roof"].id,
-      wheels: selectedFeature.wheel ? selectedFeature.wheel : selectedFeature["wheel"].id,
-      interior: selectedFeature.interior ? selectedFeature.interior : selectedFeature["interior"].id,
+      exterior: (typeof selectedFeature.exterior) === "number" ? selectedFeature.exterior : selectedFeature["exterior"].id,
+      roof: (typeof selectedFeature.roof) === "number" ? selectedFeature.roof : selectedFeature["roof"].id,
+      wheels: (typeof selectedFeature.wheel) === "number" ? selectedFeature.wheel : selectedFeature["wheel"].id,
+      interior: (typeof selectedFeature.interior) === "number" ? selectedFeature.interior : selectedFeature["interior"].id,
       price: totalPrice,
     };
 
